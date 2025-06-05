@@ -1,10 +1,10 @@
 import {createSlice} from '@reduxjs/toolkit'
 
 const initialState = {
-    subscribers = [],
-    submitting = false,
-    success = false, 
-    error = null,
+    subscribers : [],
+    submitting : false,
+    success : false, 
+    error : null,
 }
 
 const newsLetterSlice = createSlice({
